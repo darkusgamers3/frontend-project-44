@@ -1,0 +1,26 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "brain game ",
+  "keywords": [
+    "games"
+  ],
+  "homepage": "https://github.com/darkusgamers3/frontend-project-44#readme",
+  "bugs": {
+    "url": "https://github.com/darkusgamers3/frontend-project-44/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkusgamers3/frontend-project-44.git"
+  },
+  "license": "ISC",
+  "author": "darkusgamers3",
+  "type": "module",
+  "main": "bin/brain-games.js",
+  "bin": {
+  "brain-games": "bin/brain-games.js"
+},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
