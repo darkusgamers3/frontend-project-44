@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
-import runPrimeGame from '../games/prime.js';
+import runGame from '../src/index.js';
+import getRound from '../src/games/prime.js';
 
-runPrimeGame();
+runGame('Answer "yes" if given number is prime. Otherwise answer "no".', getRound);
